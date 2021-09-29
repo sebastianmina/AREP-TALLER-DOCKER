@@ -13,7 +13,7 @@ services:
         image: mongo:3.6.1
         container_name: db1
         volumes:
-            - mongodb:/data/db
+            - mongodb:/data/db1
             - mongodb_config:/data/configdb
         ports:
             - 27017:27017

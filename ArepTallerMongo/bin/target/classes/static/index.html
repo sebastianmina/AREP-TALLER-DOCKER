@@ -1,0 +1,64 @@
+<html>
+<head>
+<script type="text/javascript" src="js/apiClient.js" ></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<title>ArepTallerMongo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1,a,input,button,h2,th,div{
+	font-family: 'Lobster', cursive;
+	color:#010100;
+}
+table, th{
+  border: 1px solid black;
+}
+table th {
+  text-align: center;
+}
+</style>
+<style type="text/css">
+  	div#ca{
+  		position:absolute;
+		left:850px;
+  		top:150px;
+  	}
+	div#saveupdate{
+	position:absolute;
+		left:875px;
+  		top:460px;
+  		float:right;
+  	}
+	
+</style>
+
+<body onload="apiClient.getMensaje()" bgcolor="#FECC01">
+	<center>
+		<h2>Type a Message.</h2>
+		<div id="menu">
+			<input type="text" name="Mensaje" id="Mensaje">
+			<button type="button" onclick="apiClient.addMensaje()">Save</button>
+		</div>
+		<div>Messages:</div>
+		<div class="a">
+			<table class="table table-bordered" id="Table">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Message</th>
+						<th scope="col">Date</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</center>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
+# TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y AWS
 
 >1. El servicio MongoDB es una instancia de MongoDB corriendo en un container de docker en una máquina virtual de EC2.
 
@@ -12,3 +12,7 @@
 ## Desplegado en AWS
 
 http://ec2-54-152-196-156.compute-1.amazonaws.com:42000/index.html
+
+## Autor 
+
+[Sebastián Mina](https://github.com/sebastianmina)

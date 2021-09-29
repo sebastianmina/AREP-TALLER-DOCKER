@@ -16,3 +16,8 @@ http://ec2-54-152-196-156.compute-1.amazonaws.com:42000/index.html
 ## Autor 
 
 [Sebastián Mina](https://github.com/sebastianmina)
+
+## Licencia & Derechos de Autor
+**©** Sebastián Mina, Estudiante de Ingeniería de Sistemas de la Escuela Colombiana de Ingeniería Julio Garavito
+
+Licencia bajo la [GNU General Public License](https://github.com/sebastianmina/AREP-TALLER-DOCKER/blob/master/LICENSE.txt)
